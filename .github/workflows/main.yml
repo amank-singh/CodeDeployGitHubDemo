@@ -30,4 +30,4 @@ jobs:
           --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name CodeDeployGitHubDemo-DepGrp
           --file-exists-behavior OVERWRITE
-          --github-location repository=${{ github.repository }}, commitId=${{ github.sha }}
+          --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
